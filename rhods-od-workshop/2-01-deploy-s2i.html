@@ -53,16 +53,16 @@
 <ul class="nav-list">
   <li class="nav-item" data-depth="1">
     <button class="nav-item-toggle"></button>
-    <span class="nav-text">1. Notebooks</span>
+    <span class="nav-text">1. Jupyter Notebooks</span>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="1-01-start-jupyter.html">1. Starting a Jupyter environment</a>
+    <a class="nav-link" href="1-01-start-jupyter.html">1. Starting an environment</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="1-02-jupyter-env.html">2. The Jupyter environment</a>
+    <a class="nav-link" href="1-02-jupyter-env.html">2. The Jupyter Environment</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="1-03-notebooks.html">3. Notebooks</a>
+    <a class="nav-link" href="1-03-notebooks.html">3. Using Notebooks</a>
   </li>
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="1-04-object-detection.html">4. Object Detection</a>
@@ -74,7 +74,7 @@
   </li>
   <li class="nav-item" data-depth="1">
     <button class="nav-item-toggle"></button>
-    <span class="nav-text">2. Serving with S2I</span>
+    <span class="nav-text">2. Serving with OpenShift</span>
 <ul class="nav-list">
   <li class="nav-item is-current-page" data-depth="2">
     <a class="nav-link" href="2-01-deploy-s2i.html">1. Deploy with Source to Image</a>
@@ -102,7 +102,7 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Object Detection Workshop</a></li>
-    <li>2. Serving with S2I</li>
+    <li>2. Serving with OpenShift</li>
     <li><a href="2-01-deploy-s2i.html">1. Deploy with Source to Image</a></li>
   </ul>
 </nav>
@@ -126,16 +126,16 @@
 <div class="ulist">
 <ul>
 <li>
-<p><a href="https://github.com/rh-aiservices-bu/object-detection-rest/blob/master/wsgi.py">wsgi.py</a> - the main entrypoint for the python application and calls the prediction function.</p>
+<p><a href="https://github.com/alexgroom/object-detection-rest/blob/master/wsgi.py">wsgi.py</a> - the main entrypoint for the python application and calls the prediction function.</p>
 </li>
 <li>
-<p><a href="https://github.com/rh-aiservices-bu/object-detection-rest/blob/master/prediction.py">prediction.py</a> -which contains the function the data scientist has extracted to make predictions.  Called from the application with a dictionary parameter.</p>
+<p><a href="https://github.com/alexgroom/object-detection-rest/blob/master/prediction.py">prediction.py</a> -which contains the function the data scientist has extracted to make predictions.  Called from the application with a dictionary parameter.</p>
 </li>
 <li>
-<p><a href="https://github.com/rh-aiservices-bu/object-detection-rest/blob/master/requirements.txt">requirements.txt</a> - where both the app developer and data scientists add their python dependencies for the served application.</p>
+<p><a href="https://github.com/alexgroom/object-detection-rest/blob/master/requirements.txt">requirements.txt</a> - where both the app developer and data scientists add their python dependencies for the served application.</p>
 </li>
 <li>
-<p><a href="https://github.com/rh-aiservices-bu/object-detection-rest/tree/master/.s2i">s2i directory</a> - which contains files to customize the application deployment</p>
+<p><a href="https://github.com/alexgroom/object-detection-rest/tree/master/.s2i">s2i directory</a> - which contains files to customize the application deployment</p>
 </li>
 </ul>
 </div>
